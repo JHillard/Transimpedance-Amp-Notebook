@@ -1,0 +1,7 @@
+#Opamp is OPA111
+#http://www.ti.com/lit/ds/symlink/opa111.pdf
+OPAMP_3DB_OPENLOOP = 1E7 #Mhz
+OPAMP_DC_GAIN = 125 #Db
+OPAMP_OPENLOOPGAIN = openLoopGain(OPAMP_3DB_OPENLOOP, OPAMP_DC_GAIN,w); 
+OPAMP_VNOISE = 6E-9
+OPAMP_INOISE = 0.5E-15
